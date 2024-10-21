@@ -1,0 +1,1 @@
+SELECT title FROM Dblp_0 WHERE title like '%text%' or title like '%mining%';

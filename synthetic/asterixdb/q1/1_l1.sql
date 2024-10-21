@@ -1,0 +1,1 @@
+select avg(b) from l1 as l unnest(l.b) as b;

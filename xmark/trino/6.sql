@@ -1,0 +1,1 @@
+select cardinality(regions.europe.item) + cardinality(regions.asia.item) + cardinality(regions.africa.item) + cardinality(regions.australia.item) + cardinality(regions.namerica.item) + cardinality(regions.samerica.item) from hive.xmark.dataset;

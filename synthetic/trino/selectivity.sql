@@ -1,0 +1,14 @@
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement);
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 10 = 0;
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 100 = 0;
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 1000 = 0;
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 10000 = 0;
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 100000 = 0;
+select avg(greatest(a, belement)) from hive.generated.l1 cross join unnest(b) as b(belement) where a % 1000000 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 10 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 100 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 1000 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 10000 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 100000 = 0;
+select avg(greatest(a, b)) from hive.generated.l1_1 l1 inner join hive.generated.l1_0 l0 on l0._sk = l1._psk0 where a % 1000000 = 0;

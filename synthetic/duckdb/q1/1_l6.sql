@@ -1,0 +1,1 @@
+select avg(g) from (select unnest(g) g from (select unnest(f).g g from (select unnest(e).f f from (select unnest(d).e e from (select unnest(c).d d from (select unnest(b).c c from 'l6.parquet'))))));

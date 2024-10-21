@@ -1,0 +1,1 @@
+select avg(a - eelement) from hive.generated.l4 cross join unnest(b) cross join unnest(c) cross join unnest(d) cross join unnest(e) as e(eelement);

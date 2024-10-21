@@ -1,0 +1,1 @@
+select avg(a) from 'l0.parquet';

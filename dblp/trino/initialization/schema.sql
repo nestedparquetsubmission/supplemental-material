@@ -1,0 +1,30 @@
+create schema hive.dblp;
+
+create table hive.dblp.dataset (
+    _key varchar,
+    address varchar,
+    author ARRAY (varchar),
+    booktitle varchar,
+    cdrom ARRAY(varchar),
+    chapter varchar,
+    cite ARRAY(varchar),
+    crossref ARRAY(varchar),
+    editor ARRAY(varchar),
+    ee varchar,
+    isbn varchar,
+    journal varchar,
+    mdate varchar,
+    month varchar,
+    note ARRAY(varchar),
+    number varchar,
+    pages varchar,
+    publisher varchar,
+    publtype varchar,
+    school ARRAY(varchar),
+    series ARRAY(varchar),
+    title varchar,
+    type varchar,
+    url varchar,
+    volume varchar,
+    year varchar
+) with (format = 'parquet');

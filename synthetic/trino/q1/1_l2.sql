@@ -1,0 +1,1 @@
+select avg(celement) from hive.generated.l2 cross join unnest(b) cross join unnest(c) as c(celement);

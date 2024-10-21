@@ -1,0 +1,1 @@
+select avg(a- b) from (select a, unnest(b) b from 'l1.parquet');

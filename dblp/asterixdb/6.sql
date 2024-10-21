@@ -1,0 +1,1 @@
+select a, count(d.title) as b from Dblp as d unnest d.author as a group by a;

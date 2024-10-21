@@ -1,0 +1,1 @@
+CREATE TABLE hive.tpch.t0 ("r_regionkey" INTEGER, "r_name" varchar, "r_comment" varchar, "__index_level_0__" bigint, "_sk" INTEGER) with (format = 'parquet');

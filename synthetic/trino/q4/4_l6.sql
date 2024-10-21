@@ -1,0 +1,1 @@
+select avg(greatest(a, b.element, c.element, d.element, e.element, f.element, gelement)) from hive.generated.l6 cross join unnest(b) as b cross join unnest(c) as c cross join unnest(d) as d cross join unnest(e) as e cross join unnest(f) as f cross join unnest(g) as g(gelement);

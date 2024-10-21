@@ -1,0 +1,1 @@
+select avg(greatest(a, "b.list.element")*1.0) from ourdb.parquetview('l1.parquet')

@@ -1,0 +1,1 @@
+SELECT title FROM 'dblp0.parquet' WHERE title like '%text%' or title like '%mining%';

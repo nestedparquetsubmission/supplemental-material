@@ -1,0 +1,1 @@
+select avg(a*1.0) from ourdb.parquetview('l0.parquet')

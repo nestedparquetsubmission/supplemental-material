@@ -1,0 +1,1 @@
+select avg(greatest(l.a, b.`element`,c.`element`,d.`element`, e.`element`, f)) from l5 as l unnest(l.b) as b unnest (b.c) as c unnest (c.d) as d unnest (d.e) as e unnest(e.f) as f;

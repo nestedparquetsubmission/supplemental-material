@@ -1,0 +1,1 @@
+select avg((a -"b.list.element.c.list.element.d.list.element.e.list.element.f.list.element")*1.0) from ourdb.parquetview('l5.parquet')

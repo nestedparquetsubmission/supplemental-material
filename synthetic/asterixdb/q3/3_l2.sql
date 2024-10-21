@@ -1,0 +1,1 @@
+select avg(l.a-c) from l2 as l unnest(l.b) as b unnest(b.c) as c;

@@ -1,0 +1,14 @@
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 10 = 0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 100 = 0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 1000 = 0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 10000 = 0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 100000 = 0;
+select avg(greatest(l0.a, l1.b)) from l1_0 l0 inner join l1_1 l1 on l0._sk = l1._psk0 where l0.a % 1000000 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %10 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %100 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %1000 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %10000 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %100000 = 0;
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b where l.a %1000000 = 0;

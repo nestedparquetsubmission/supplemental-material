@@ -1,0 +1,1 @@
+SELECT title from ourdb.parquetview('dblp.parquet') WHERE title like '%database%'

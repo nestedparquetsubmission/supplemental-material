@@ -1,0 +1,1 @@
+select avg(d-e) from (select d,unnest(e) e from (select unnest(d).element d, unnest(d).e e from (select unnest(c).d d from (select unnest(b).c c from 'l4.parquet'))));

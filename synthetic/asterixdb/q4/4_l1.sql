@@ -1,0 +1,1 @@
+select avg(greatest(l.a, b)) from l1 as l unnest(l.b) as b;

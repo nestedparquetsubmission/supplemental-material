@@ -1,0 +1,1 @@
+select avg(greatest(a, "b.list.element.element", "b.list.element.c.list.element.element", "b.list.element.c.list.element.d.list.element.element", "b.list.element.c.list.element.d.list.element.e.list.element")*1.0) from ourdb.parquetview('l4.parquet')
