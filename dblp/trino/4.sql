@@ -1,0 +1,1 @@
+SELECT title FROM hive.dblp.dataset WHERE title like '%database%' and title like '%text%' and title like '%mining%';

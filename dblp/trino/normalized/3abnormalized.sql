@@ -1,0 +1,1 @@
+SELECT title FROM hive.dblp.d0 WHERE title like '%database%' or title like '%text%';

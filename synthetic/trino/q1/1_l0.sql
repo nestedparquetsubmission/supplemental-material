@@ -1,0 +1,1 @@
+select avg(a) from hive.generated.l0;

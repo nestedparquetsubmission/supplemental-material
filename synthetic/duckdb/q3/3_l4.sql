@@ -1,0 +1,1 @@
+select a, unnest(e) from (select a, unnest(d).e e from (select a, unnest(c).d d from (select a, unnest(b).c c from 'l4.parquet')));

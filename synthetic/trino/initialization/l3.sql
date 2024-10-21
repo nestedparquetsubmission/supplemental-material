@@ -1,0 +1,1 @@
+CREATE TABLE hive.generated.l3 ("a" bigint, "b" ARRAY(ROW("c" ARRAY(ROW("d" ARRAY(bigint), "element" bigint)), "element" bigint))) with (format = 'parquet');

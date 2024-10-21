@@ -1,0 +1,1 @@
+select a, unnest(b) from 'l1.parquet';

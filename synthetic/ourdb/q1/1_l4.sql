@@ -1,0 +1,1 @@
+select "b.list.element.c.list.element.d.list.element.e.list.element" from ourdb.parquetview('l4.parquet');

@@ -1,0 +1,1 @@
+select count(*) from (select unnest(closed_auctions.closed_auction).price as price from "sf10.parquet") where price >= 40

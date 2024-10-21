@@ -1,0 +1,1 @@
+CREATE TABLE hive.dblp.d1 ("author" varchar, "_psk0" INTEGER, "_sk" INTEGER) with (format = 'parquet');

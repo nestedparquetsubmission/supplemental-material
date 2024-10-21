@@ -1,0 +1,1 @@
+select a from ourdb.parquetview('l0.parquet');

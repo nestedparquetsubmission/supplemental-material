@@ -1,0 +1,1 @@
+CREATE TABLE hive.tpch10.t0 ("c_acctbal" decimal(12,2), "c_address" varchar, "c_comment" varchar, "c_custkey" bigint, "c_mktsegment" varchar, "c_name" varchar, "c_nationkey" bigint, "c_phone" varchar, "_sk" INTEGER) with (format = 'parquet');
